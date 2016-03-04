@@ -12,7 +12,6 @@ app.use('/bootstrap.json',express.static(__dirname + '/bootstrap.json'));
 app.use('/bootstrap.css',express.static(__dirname + '/bootstrap.css'));
 
 app.get("/",function(req,res){
-	//console.log("Sistem Akreditasi S1");
 	res.sendFile(__dirname+"/"+"index.html");
 });
 
@@ -20,5 +19,5 @@ var server = app.listen(3000,function(){
 	var host = server.address().address;
 	var port = server.address().port;
 	
-	console.log("Web Desktop App Listening at http://%s:%s ",host,port);
+	console.log("Web Desktop App Listening at http://%s:%s Created by Eko Junaidi Salam",host,port);
 })
