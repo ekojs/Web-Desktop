@@ -1,0 +1,17 @@
+{
+  "name": "web-desktop-app",
+  "version": "1.0.0",
+  "description": "Web Desktop App Using Integrated Extjs4.2 and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Akreditasi"
+  ],
+  "author": "Eko Junaidi Salam <eko_junaidisalam@live.com> (http://ekojunaidisalam.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
